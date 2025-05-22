@@ -21,7 +21,10 @@ export default function Layout() {
 
   return (
     <TamaguiProvider config={config}>
-      <Stack />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="screens/home" />
+        <Stack.Screen name="+not-found" />
+      </Stack>
     </TamaguiProvider>
   );
 }
