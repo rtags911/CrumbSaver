@@ -46,10 +46,10 @@ CrumbSaver was created to make budgeting accessible and enjoyable. Inspired by n
 
 ## 🛠 Tech Stack (Example)
 
-- Flutter (for cross-platform mobile)
-- Firebase (for auth & database)
-- Riverpod or Provider (for state management)
-- Custom animations (Flutter Rive / Lottie)
+- React Native (for cross-platform mobile/IOS)
+- MongoDB (for auth & database)
+- Zustand  (for state management)
+- Custom animations (Lottie)
 - 💖 and lots of snacks
 
 ---
